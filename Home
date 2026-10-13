@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fare Tour</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+                                integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" 
+                                crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+                            crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid overall_container">
+        <div class="rhs_nav">
+            <a href="../home/index.html"><p><i class="fa-solid fa-home"></i> Home</p></a>
+            <a href="../favorites/index.html"><p><i class="fa-solid fa-heart"></i> Favorites</p></a>
+            <a href="../cart/index.html"><p><i class="fa-solid fa-cart-shopping"></i> Cart</p></a>
+            <a href="../account/index.html"><p><i class="fa-solid fa-user"></i> Account</p></a>
+        </div>
+        <div class="container home_container">
+            <div class="h_header">
+                <div class="h_user_pic">
+                    <i class="fa-solid fa-circle-user account-icon"></i>
+                </div><br><br>
+                <div class="h_search">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="h_banner"></div>
+            <div class="h_categs">
+                 <h2>Categories</h2>
+                <span>All</span>
+                <span>Popular</span>
+                <span>Rice</span>
+                <span>Snacks</span>
+                <span>Juice</span>
+            </div>
+            <div class="h_items">
+                <a href="./store-page/index.html">
+                    <div class="h_item">
+                        <img src="../assets/images/coldstone.png" alt=""><br>
+                        <b id="h_item_name">Cold stone creamry</b><br>
+                        <span id="h_item_rate">N4,500</span>
+                        <span id="h_item_rate"><i class="fa-solid fa-star" style="color: #FFB703;"></i>4.5</span>
+                        <span id="h_item_open">Open</span>
+                    </div>
+                </a>
+                <a href="./store-page/index.html">
+                    <div class="h_item">
+                        <img src="../assets/images/coldstone.png" alt=""><br>
+                        <b id="h_item_name">Cold stone creamry</b><br>
+                        <span id="h_item_rate">N4,500</span>
+                        <span id="h_item_rate"><i class="fa-solid fa-star" style="color: #FFB703;"></i>4.5</span>
+                        <span id="h_item_open">Open</span>
+                    </div>
+                </a>
+                <a href="./store-page/index.html">
+                    <div class="h_item">
+                        <img src="../assets/images/coldstone.png" alt=""><br>
+                        <b id="h_item_name">Cold stone creamry</b><br>
+                        <span id="h_item_rate">N4,500</span>
+                        <span id="h_item_rate"><i class="fa-solid fa-star" style="color: #FFB703;"></i>4.5</span>
+                        <span id="h_item_open">Open</span>
+                    </div>
+                </a>
+                <a href="./store-page/index.html">
+                    <div class="h_item">
+                        <img src="../assets/images/coldstone.png" alt=""><br>
+                        <b id="h_item_name">Cold stone creamry</b><br>
+                        <span id="h_item_rate">N4,500</span>
+                        <span id="h_item_rate"><i class="fa-solid fa-star" style="color: #FFB703;"></i>4.5</span>
+                        <span id="h_item_open">Open</span>
+                    </div>
+                </a>
+                <a href="./store-page/index.html">
+                    <div class="h_item">
+                        <img src="../assets/images/coldstone.png" alt=""><br>
+                        <b id="h_item_name">Cold stone creamry</b><br>
+                        <span id="h_item_rate">N4,500</span>
+                        <span id="h_item_rate"><i class="fa-solid fa-star" style="color: #FFB703;"></i>4.5</span>
+                        <span id="h_item_open">Open</span>
+                    </div>
+                </a>
+                <a href="./store-page/index.html">
+                    <div class="h_item">
+                        <img src="../assets/images/coldstone.png" alt=""><br>
+                        <b id="h_item_name">Cold stone creamry</b><br>
+                        <span id="h_item_rate">N4,500</span>
+                        <span id="h_item_rate"><i class="fa-solid fa-star" style="color: #FFB703;"></i>4.5</span>
+                        <span id="h_item_open">Open</span>
+                    </div>
+                </a>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer_nav">
+        <a href="../home/index.html" class="active"><i class="fa-solid fa-home"></i></a>
+        <a href="../favorites/index.html"><i class="fa-solid fa-heart"></i></a>
+        <a href="../cart/index.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="../account/index.html"><i class="fa-solid fa-user"></i></a>
+    </div>
+   
+</body>
+
+</html>
